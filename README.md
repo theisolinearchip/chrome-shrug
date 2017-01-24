@@ -6,4 +6,4 @@ Download the files, open the extension manager and add it as an unpacked extensi
 
 # known issues
 - Currently working only on inputs, textareas and tags with the "contenteditable" attribute.
-- It doesn't trigger any keypressed-wannabe event, so sometimes you need to type after the insertion to trigger the regular behaviour for the field.
+- It doesn't trigger any keypressed-like event, so sometimes you need to type after the insertion to trigger the regular behaviour for the field.
