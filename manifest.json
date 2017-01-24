@@ -1,0 +1,26 @@
+{
+	"manifest_version": 2,
+
+	"name": "chrome-shrug",
+	"description": "Append a shrug emoticon in the input",
+	"version": "1.0",
+
+	"permissions": [
+		"contextMenus"
+	],
+
+	"icons": {
+		"16": "icon.png"
+	},
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["shrug.js"]
+		}
+	]
+}
