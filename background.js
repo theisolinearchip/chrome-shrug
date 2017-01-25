@@ -5,5 +5,12 @@ function insert_shrug(info, tab) {
 	});
 }
 
-var id = chrome.contextMenus.create({"title": "Shrug", "contexts":["editable"],
-								   "onclick": insert_shrug});
+
+chrome.contextMenus.onClicked.addListener(insert_shrug);
+
+chrome.runtime.onInstalled.addListener(function(details) {
+	chrome.contextMenus.create({"title": "Shrug",
+								"contexts":["editable"],
+								"id": "paste_shrug"
+							});
+});

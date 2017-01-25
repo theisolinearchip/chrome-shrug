@@ -6,6 +6,7 @@
 	"version": "1.0",
 
 	"permissions": [
+        "clipboardRead",
 		"contextMenus"
 	],
 
@@ -14,6 +15,7 @@
 	},
 
 	"background": {
+		"persistent": false,
 		"scripts": ["background.js"]
 	},
 
