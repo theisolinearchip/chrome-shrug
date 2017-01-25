@@ -1,5 +1,5 @@
 # chrome-shrug
-Chrome extension that creates a context menu item to insert a shrug ascii emoticon ¯\_(ツ)_/¯
+Chrome extension that creates a context menu item to insert a shrug ascii emoticon ¯\\_(ツ)_/¯
 
 # installation
 Download the files, open the extension manager and add it as an unpacked extension. Easy!
